@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Portfolio de Joffrey Dercourt</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Joffrey Dercourt, retrouvez mes compétences et mes divers projets de développeur web frontend.">
+    <meta property="og:title" content="Portfolio de Joffrey Dercourt">
+    <meta property="og:description" content="Portfolio de Joffrey Dercourt, retrouvez mes compétences et mes divers projets de développeur web frontend.">
+    <meta property="og:url" content="https://portfolio.joodrcrt.fr/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://portfolio.joodrcrt.fr/img/profil.webp">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="img/favicon.ico">
+    <script src="./js/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/bcafe2bc08.js" crossorigin="anonymous" defer></script>
+</head>
+<body>
+    <header>
+        <section class="presentation">
+            <div class="presentation_container1">
+                <div class="presentation_bloc1">
+                    <nav class="navbar">
+                        <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+                            <i class="fa-solid fa-bars"></i>
+                            <i class="fa-solid fa-times"></i>
+                        </button>
+                        <ul class="navbar_list" id="navbar_list">
+                            <li class="navbar_item"><a class="navbar_link" href="#about">A propos de moi</a></li>
+                            <li class="navbar_item"><a class="navbar_link" href="#skills">Compétences</a></li>
+                            <li class="navbar_item"><a class="navbar_link" href="#projects">Projets</a></li>
+                            <li class="navbar_item"><a class="navbar_link" href="#contact">Me contacter</a></li>
+                        </ul>
+                    </nav>
+                    <div class="presentation_hero_content">
+                        <a class="btn_cv" href="cv.pdf" download>
+                            <i class="fa-solid fa-file-arrow-down"></i> Télécharger mon CV
+                        </a>
+                        <div class="presentation_availability">
+                            <span class="availability_dot"></span>
+                            <span class="availability_text">Non disponible</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="underline"></div>
+                <div class="presentation_bloc2">
+                    <h1 class="presentation_name">Dercourt Joffrey</h1>
+                    <p class="presentation_job" id="presentation_job">DEVELOPPEUR WEB FRONTEND </p>
+                </div>
+                <div class="presentation_bloc3">
+                    <img class="presentation_img" src="img/profil.webp" alt="photo de profil">
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="about" id="about">
+            <div class="about_container1 reveal">
+                <div class="underline_about"></div>
+                <div class="about_bloc1">
+                    <h2 class="about_title">A PROPOS DE MOI</h2>
+                </div>
+                <div class="about_bloc2">
+                    <p class="about_text">
+                        Avec une passion pour l'informatique et les nouvelles technologies, j'ai décidé de me concentrer sur le développement front-end. 
+                        J'ai commencé en tant qu'autodidacte en travaillant sur des projets personnels, avant de comprendre que pour atteindre mes objectifs, j'avais besoin d'une formation professionnelle. 
+                        C'est dans cet optique que j'ai choisi de suivre une formation chez OpenClassrooms, où j'ai pu acquérir les compétences nécessaires pour devenir un développeur front-end. 
+                        Mon portfolio regroupe mes projets les plus récents, et j'espère qu'ils vous donneront une idée de mes compétences et de mon savoir-faire en matière de développement front-end.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <div class="skills_container1 reveal">
+                <div class="underline_skills"></div>
+                <div class="skills_bloc1">
+                    <h2 class="skills_title">COMPÉTENCES</h2>
+                </div>
+                <div class="skills_bloc2">
+                    <div class="skills_card">
+                        <i class="fa-brands fa-html5"></i>
+                        <h3 class="skills_card_title">HTML</h3>
+                        <div class="skill_progress">
+                            <div class="progress_bar_html"></div>
+                        </div>
+                    </div>
+                    <div class="skills_card">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <h3 class="skills_card_title">CSS</h3>
+                        <div class="skill_progress">
+                            <div class="progress_bar_css"></div>
+                        </div>
+                    </div>
+                    <div class="skills_card">
+                        <i class="fa-brands fa-square-js"></i>
+                        <h3 class="skills_card_title">JAVASCRIPT</h3>
+                        <div class="skill_progress">
+                            <div class="progress_bar_javascript"></div>
+                        </div>
+                    </div>
+                    <div class="skills_card">
+                        <i class="fa-brands fa-react"></i>
+                        <h3 class="skills_card_title">REACT</h3>
+                        <div class="skill_progress">
+                            <div class="progress_bar_react"></div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <section class="tools" id="tools">
+            <div class="tools_container reveal">
+                <div class="tools_container1">
+                    <div class="underline_tools"></div>
+                    <div class="tools_bloc1">
+                        <h2 class="tools_title">OUTILS</h2>
+                    </div>
+                    <div class="tools_bloc2">
+                        <div class="tools_overflow">
+                            <div class="tools_track">
+                                <div class="tools_card">
+                                    <img class="tools_card_img" src="img/vscode.svg" alt="logo vscode">
+                                    <h3 class="tools_card_title">VSCode</h3>
+                                </div>
+                                <div class="tools_card">
+                                    <i class="fa-brands fa-git wobble-hor-bottom"></i>
+                                    <h3 class="tools_card_title">Git</h3>
+                                </div>
+                                <div class="tools_card">
+                                    <img class="tools_card_img" src="img/vercel.svg" alt="logo vercel">
+                                    <h3 class="tools_card_title">Vercel</h3>
+                                </div>
+                                <div class="tools_card">
+                                    <i class="fa-brands fa-docker"></i>
+                                    <h3 class="tools_card_title">Docker</h3>
+                                </div>
+                                <div class="tools_card">
+                                    <img class="tools_card_img" src="img/claude.svg" alt="logo claude code">
+                                    <h3 class="tools_card_title">Claude Code</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tools_container2">
+                    <div class="underline_tools"></div>
+                    <div class="tools_bloc1">
+                        <h2 class="tools_title">OS</h2>
+                    </div>
+                    <div class="tools_bloc2">
+                        <div class="tools_card">
+                            <i class="fa-brands fa-apple"></i>
+                            <h3 class="tools_card_title">MacOS</h3>
+                        </div>
+                        <div class="tools_card">
+                            <i class="fa-brands fa-windows"></i>
+                            <h3 class="tools_card_title">Windows</h3>
+                        </div>
+                        <div class="tools_card">
+                            <i class="fa-brands fa-linux"></i>
+                            <h3 class="tools_card_title">Linux</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="projects" id="projects">
+            <div class="projects_container1 reveal">
+                <div class="underline_projects"></div>
+                <div class="projects_bloc1">
+                    <h2 class="projects_title">PROJETS</h2>
+                </div>
+                <div class="projects_bloc2">
+                     <div class="projects_card">
+                        <div class="projects_informations">
+                            <h3 class="projects_card_title">Subly</h3>
+                            <div class="projects_tags">
+                                <p class="projects_tag">React</p>
+                                <p class="projects_tag">Vite</p>
+                                <p class="projects_tag">Node.js</p>
+                                <p class="projects_tag">Express</p>
+                                <p class="projects_tag">MongoDB</p>
+                            </div>
+                            <p class="projects_card_description">Web app permettant de suivre les dépenses de ses abonnements.</p>
+                            <div class="projects_link">
+                                <a class="projects_link_github" href="https://github.com/zlimteck/subly_app" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Github</a>
+                                <a class="projects_link_docker" href="https://hub.docker.com/r/zlimteck/subly" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-docker"></i> Dockerhub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects_card">
+                        <div class="projects_informations">
+                            <h3 class="projects_card_title">EbookRequest Frontend</h3>
+                            <div class="projects_tags">
+                                <p class="projects_tag">React</p>
+                                <p class="projects_tag">Tailwind CSS</p>
+                            </div>
+                            <p class="projects_card_description">Frontend de l'application web EbookRequest.</p>
+                            <div class="projects_link">
+                                <a class="projects_link_github" href="https://github.com/zlimteck/frontend_ebookrequest" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Github</a>
+                                <a class="projects_link_docker" href="https://hub.docker.com/r/zlimteck/ebookrequest-frontend" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-docker"></i> Dockerhub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects_card">
+                        <div class="projects_informations">
+                            <h3 class="projects_card_title">EbookRequest Backend</h3>
+                            <div class="projects_tags">
+                                <p class="projects_tag">Javascript</p>
+                                <p class="projects_tag">Node.js</p>
+                                <p class="projects_tag">Express</p>
+                                <p class="projects_tag">Google books API</p>
+                            </div>
+                            <p class="projects_card_description">Backend de l'application web EbookRequest.</p>
+                            <div class="projects_link">
+                                <a class="projects_link_github" href="https://github.com/zlimteck/backend_ebookrequest" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Github</a>
+                                <a class="projects_link_docker" href="https://hub.docker.com/r/zlimteck/ebookrequest-backend" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-docker"></i> Dockerhub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects_card">
+                        <div class="projects_informations">
+                            <h3 class="projects_card_title">MusicNFOGenerator</h3>
+                            <div class="projects_tags">
+                                <p class="projects_tag">Python</p>
+                            </div>
+                            <p class="projects_card_description">Script qui permet de génerer des nfo via mediainfo.</p>
+                            <div class="projects_link">
+                                <a class="projects_link_github" href="https://github.com/zlimteck/MusicNFOGenerator" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Github</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects_card">
+                        <div class="projects_informations">
+                            <h3 class="projects_card_title">Twitchnotifier</h3>
+                            <div class="projects_tags">
+                                <p class="projects_tag">Javascript</p>
+                                <p class="projects_tag">Node.js</p>
+                                <p class="projects_tag">Express</p>
+                                <p class="projects_tag">Pushover</p>
+                            </div>
+                            <p class="projects_card_description">Script qui permet de recevoir une notification via pushover quand une chaine twitch passe en ligne ou hors ligne, avec interface web pour gerer les chaines a surveiller.</p>
+                            <div class="projects_link">
+                                <a class="projects_link_github" href="https://github.com/zlimteck/twitchnotifier" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Github</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects_card">
+                        <div class="projects_informations">
+                            <h3 class="projects_card_title">ISS Tracking</h3>
+                            <div class="projects_tags">
+                                <p class="projects_tag">React</p>
+                                <p class="projects_tag">API</p>
+                                <p class="projects_tag">Leaflet</p>
+                            </div>
+                            <p class="projects_card_description">Site web en React permettant de suivre la position en temps réel sur une map et de retrouver toutes les expéditions vers l'ISS ainsi que leurs détails.</p>
+                            <div class="projects_link">
+                                <a class="projects_link_github" href="https://github.com/zlimteck/isstracking-react" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Github</a>
+                                <a class="projects_link_site" href="https://isstracking.xyz" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe"></i> Site Web</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects_card">
+                        <div class="projects_informations">
+                            <h3 class="projects_card_title">API ISS Tracking</h3>
+                            <div class="projects_tags">
+                                <p class="projects_tag">Javascript</p>
+                                <p class="projects_tag">Node.js</p>
+                                <p class="projects_tag">Express</p>
+                                <p class="projects_tag">MongoDB Atlas</p>
+                            </div>
+                            <p class="projects_card_description">API qui permet de récupérer les différentes expéditions vers l'ISS ainsi que le détails des expéditions telle que le patch, la date de départ et de retour et la liste de l'équipage etc.</p>
+                            <div class="projects_link">
+                                <a class="projects_link_site" href="https://api.isstracking.xyz/v1/expeditions" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe"></i> API</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects_card">
+                        <div class="projects_informations">
+                            <h3 class="projects_card_title">KASA</h3>
+                            <div class="projects_tags">
+                                <p class="projects_tag">React</p>
+                                <p class="projects_tag">Formation</p>
+                            </div>
+                            <p class="projects_card_description">Projet 7 de la formation développeur web de chez OpenClassrooms, qui consistait à reproduire une app React d'une agence de location immobilière à partir d'une maquette Figma.</p>
+                            <div class="projects_link">
+                                <a class="projects_link_github" href="https://github.com/zlimteck/Kasa" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Github</a>
+                                <a class="projects_link_site" href="https://kasa-phi.vercel.app/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe"></i> Site Web</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects_card">
+                        <div class="projects_informations">
+                            <h3 class="projects_card_title">Piiquante</h3>
+                            <div class="projects_tags">
+                                <p class="projects_tag">Javascript</p>
+                                <p class="projects_tag">Node.js</p>
+                                <p class="projects_tag">Express</p>
+                                <p class="projects_tag">MongoDB Atlas</p>
+                                <p class="projects_tag">Formation</p>
+                            </div>
+                            <p class="projects_card_description">Projet 6 de la formation développeur web de chez OpenClassrooms, qui consistait à créer une api pour ajouter, supprimer, modifier ainsi que like et dislike une sauce, de façon sécurisée avec une authentification.</p>
+                            <div class="projects_link">
+                                <a class="projects_link_github" href="https://github.com/zlimteck/Piiquante" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Github</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects_card">
+                        <div class="projects_informations">
+                            <h3 class="projects_card_title">Kanap</h3>
+                            <div class="projects_tags">
+                                <p class="projects_tag">Javascript</p>
+                                <p class="projects_tag">Formation</p>
+                            </div>
+                            <p class="projects_card_description">Projet 5 de la formation développeur web de chez OpenClassrooms, qui consistait à créer un site e-commerce en Javascript.</p>
+                            <div class="projects_link">
+                                <a class="projects_link_github" href="https://github.com/zlimteck/Kanap" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Github</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects_card">
+                        <div class="projects_informations">
+                            <h3 class="projects_card_title">La Panthere</h3>
+                            <div class="projects_tags">
+                                <p class="projects_tag">HTML</p>
+                                <p class="projects_tag">Bootstrap</p>
+                                <p class="projects_tag">Javascript</p>
+                                <p class="projects_tag">Formation</p>
+                            </div>
+                            <p class="projects_card_description">Projet 4 de la formation développeur web de chez OpenClassrooms, qui consistait à améliorer l'accessibilité, les performances et le SEO d'un site web existant.</p>
+                            <div class="projects_link">
+                                <a class="projects_link_github" href="https://github.com/zlimteck/LaPanthere" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Github</a>
+                                <a class="projects_link_site" href="https://zlimteck.github.io/LaPanthere" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe"></i> Site Web</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects_card">
+                        <div class="projects_informations">
+                            <h3 class="projects_card_title">Ohmyfood</h3>
+                            <div class="projects_tags">
+                                <p class="projects_tag">HTML</p>
+                                <p class="projects_tag">SCSS</p>
+                                <p class="projects_tag">Formation</p>
+                            </div>
+                            <p class="projects_card_description">Projet 3 de la formation développeur web de chez OpenClassrooms, qui consistait à créer un site web de commande de plats et d'intégrer des animations et un loader en SCSS.</p>
+                            <div class="projects_link">
+                                <a class="projects_link_github" href="https://github.com/zlimteck/ohmyfood" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Github</a>
+                                <a class="projects_link_site" href="https://zlimteck.github.io/ohmyfood" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe"></i> Site Web</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects_card">
+                        <div class="projects_informations">
+                            <h3 class="projects_card_title">Booki</h3>
+                            <div class="projects_tags">
+                                <p class="projects_tag">HTML</p>
+                                <p class="projects_tag">CSS</p>
+                                <p class="projects_tag">Formation</p>
+                            </div>
+                            <p class="projects_card_description">Projet 2 de la formation développeur web de chez OpenClassrooms, qui consistait à créer un site web à partir d'une maquette Figma.</p>
+                            <div class="projects_link">
+                                <a class="projects_link_github" href="https://github.com/zlimteck/Booki" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Github</a>
+                                <a class="projects_link_site" href="https://zlimteck.github.io/Booki" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe"></i> Site Web</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bloc_button">
+                        <button class="projects_button" id="button_projects" aria-label="Afficher ou masquer les autres projets">
+                            <i id="icon_show" class="fa-solid fa-arrow-down"></i>
+                            <i id="icon_hide" class="fa-solid fa-arrow-up"></i>
+                        </button>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="contact_container1 reveal">
+                <div class="underline_contact"></div>
+                <div class="contact_bloc1">
+                    <h2 class="contact_title">ME CONTACTER</h2>
+                </div>
+                <div class="contact_bloc2">
+                    <div class="contact_card1">
+                        <div class="contact_informations">
+                            <h3 class="contact_card_title">Coordonnées</h3>
+                            <div class="contact_mail">
+                                <a class="contact_mail_link" href="mailto:joffrey.dercourt@ikmail.com"><i class="fa-solid fa-envelope"></i> Mail</a>
+                            </div>
+                            <div class="contact_number">
+                                <a class="contact_number_link" href="tel:+33660519423"><i class="fa-solid fa-phone"></i> Téléphone</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact_card2">
+                        <div class="contact_informations">
+                            <h3 class="contact_card_title">Réseaux</h3>
+                            <div class="contact_social_network">
+                                <a class="contact_social_network_link" href="https://github.com/zlimteck/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Github</a>
+                                <a class="contact_social_network_link" href="https://www.linkedin.com/in/joffrey-dercourt-236174247/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
+                                <a class="contact_social_network_link" href="https://twitter.com/JoffreyDrcrt/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter"></i> Twitter</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer_container1">
+            <div class="underline_footer"></div>
+            <div class="footer_bloc1">
+                <p class="footer_title">© <span id="footer_year"></span> - Dercourt Joffrey</p>
+            </div>
+        </div>
+    </footer>
+    <button class="btn_top" id="btn_top" aria-label="Retour en haut">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
+</body>
+</html>
