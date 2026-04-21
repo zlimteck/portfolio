@@ -1,16 +1,20 @@
 var hamburger = document.getElementById("hamburger");
 var menu = document.getElementById("navbar_list");
 
+var bloc1 = document.querySelector(".presentation_bloc1");
+
 function closeMenu() {
     hamburger.classList.remove("is-open");
     menu.classList.remove("is-open");
     hamburger.setAttribute("aria-expanded", "false");
+    bloc1.classList.remove("menu-open");
 }
 
 function toggleMenu() {
     var isOpen = hamburger.classList.toggle("is-open");
     menu.classList.toggle("is-open");
     hamburger.setAttribute("aria-expanded", isOpen);
+    bloc1.classList.toggle("menu-open", isOpen);
 }
 
 hamburger.addEventListener("click", toggleMenu);
